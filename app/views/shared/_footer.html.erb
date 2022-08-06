@@ -1,0 +1,37 @@
+<footer class="py-5 text-light footer" id="footer">
+  <div class="container align-items-center">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <%= link_to pages_home_path do %>
+          <%= image_tag("louise-hill-logo.svg", alt: "Louise Hill logo", class: "navbar-brand") %>
+        <% end %>
+        <h6 class="footer pt-3 pb-3">©2021 All rights reserved</h6>
+        <h6 class="footer pb-3">Website coded by me (Louise) in Ruby on Rails</h6>
+      </div>
+        <div class="col-sm-12 col-md-6 d-flex justify-content-between align-items-center">
+          <div>
+          <%= link_to "https://github.com/louise-hill", target: :_blank do %>
+            <span>
+              <p class="link-external-white">Github <i class="fas fa-external-link-alt"></i></p>
+            </span>
+          <% end %>
+          </div>
+
+          <div> 
+          <%= link_to "https://louisehilltech.medium.com", target: :_blank do %>
+            <span>
+              <p class="link-external-white">Medium <i class="fas fa-external-link-alt"></i></p>
+            </span>
+          <% end %>
+          </div>
+          
+          <div>
+          <%= link_to "https://www.linkedin.com/in/louisehilltech", target: :_blank do %>
+            <span>
+              <p class="link-external-white">Linkedin <i class="fas fa-external-link-alt"></i></p>
+            </span>
+          <% end %>
+          </div>
+      </div>
+  </div>
+</footer>

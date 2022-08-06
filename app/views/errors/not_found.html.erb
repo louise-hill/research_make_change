@@ -1,0 +1,13 @@
+<section class="bg-primary min-vh-100" style="background-image: url(<%= asset_path('background-homepage.png') %>)">
+  <%= render 'shared/navbar' %>
+    <div class="container">
+      <div class="d-flex flex-column justify-content-center fixed-height">
+        <h1 class="centered row display-2 text-white">404</h1>
+        <h6 class="centered row text-center projects mx-5">Oops! This page can't be found</h6>
+        <h6 class="centered row text-center projects mx-5">But don't fear, there's so much more to see!</h6>
+        <%= link_to pages_home_path do %>
+        <h6 class="centered row text-center projects text-white">To the homepage<%= image_tag("link-arrow.svg", alt: "link arrow", class: "pl-3") %></h6>
+        <% end %>
+      </div>
+    </div>
+  </section>
